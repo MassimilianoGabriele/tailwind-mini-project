@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Modal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!-- Container -->
+    <div class="flex items-center justify-center min-h-screen bg-neutral-200">
+      <!-- Card -->
+      <div class="flex flex-col md:flex-row min-h-96 px-6 rounded-lg shadow-md bg-white py-12">
+          <!-- IMG Col -->
+        <div class="col flex items-start justify-center md:justify-start">
+          <img src="./images/headphone.png" class="w-52" alt="headphones image">
+        </div>
+         <!-- Info Col -->
+        <div class="col flex flex-col mx-5 py-5 md:py-0">
+          <div class="rounded-xl bg-black text-xs text-white p-2 h-6 w-24 flex items-center justify-center">
+            <p>Free shipping</p>
+          </div>
+              <h4 class="text-lg font-bold pt-2 tracking-tight">
+                    Razer Kraken Kitty Edit Gaming
+                  <br/>
+                    Headset Quartz
+              </h4>
+            <div>
+                <!-- TODO ROIPRENDI QUI -->
+                <p class="pt-8 line-through text-xs font-bold">$799</p>
+                <p class="font-bold text-5xl pt-3 tracking-tight font-sans">$599</p>
+                <p class="text-xs pt-1 text-gray-400">The offer is valid until April 3 or as long as stock lasts!</p>
+            </div>
+            <button class="w-full bg-indigo-500 text-white text-center text-xs my-5 h-10 rounded-md shadow-md shadow-indigo-600 hover:bg-indigo-800 hover:shadow-indigo-900 transition duration-300">
+                Add to cart
+            </button>
+            <div class="mt-3 flex flex-row">
+                <span class="h-3 w-3 rounded-xl bg-green-400 pt-3"></span>
+                <p class="font-bold text-xs pl-2 h-3">
+                    50+ pcs. in stock.
+                </p>
+            </div>
+            <div class="mt-5 flex flex-col md:flex-row justify-between">
+                <div class="border flex flex-row items-center px-5 h-12 rounded-md border-grey-300 justify-start">
+                    <img class="w-6 mr-3" src="images/weight.png">
+                    <p class="font-bold text-xs">Add to cart</p>
+                </div>
+                <div class="border flex flex-row items-center px-5 h-12 rounded-md border-grey-300 justify-start md:ml-3 mt-3 md:mt-0">
+                    <img class="w-6 mr-3 m-0" src="images/heart.png">
+                    <p class="font-bold text-xs">Add to Wishlist</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
